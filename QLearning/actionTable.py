@@ -1,5 +1,4 @@
 import numpy as np
-
 class ActionTableEntry:
         # __piece=[]
         # __value=[]
@@ -40,7 +39,7 @@ class ActionTable:
         self._pieceToMove=np.full((self.states,self.actions),np.nan)#np.zeros((self.states, self.actions), dtype=np.object)
 
     #todo: piece implementation missing...
-    def UpdateQTable(self,action,piece,value):
+    def UpdateActionTable(self,action,piece, value):
         if(np.isnan(self._actionTable[self._state,action.value])):
             # self._qTable[self._state,action.value]=ActionTableEntry(piece,value)
             self._actionTable[self._state,action.value]=1
