@@ -1,0 +1,15 @@
+name: LudoPy
+# All packages in repository should be installed with requirements.txt
+# Pre-commit packages will be listed here
+channels:
+  - defaults
+dependencies:
+- python=3.9
+- pip
+- pip:
+  - autoflake
+  - pylint
+  - pre-commit
+  - pipreqs
+  - LudoPy
+  - -r requirements.txt

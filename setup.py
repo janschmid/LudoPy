@@ -19,12 +19,12 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     keywords="LUDO, game",
-    python_requires='>=3.5',
-    license='MIT',
+    python_requires=">=3.5",
+    license="MIT",
     install_requires=["numpy", "opencv-python>=3.1"],
     include_package_data=True,
 )
 
-#python setup.py sdist bdist_wheel
-#python -m twine upload dist/*
-#python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+# python setup.py sdist bdist_wheel
+# python -m twine upload dist/*
+# python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*

@@ -139,3 +139,6 @@ dmypy.json
 .github/*
 Nathan/*
 .patch
+
+QLearning/Savegames
+QLearning/TestResults

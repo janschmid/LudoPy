@@ -1,0 +1,3 @@
+[submodule "YARAL"]
+	path = YARAL
+	url = https://github.com/NDurocher/YARAL
